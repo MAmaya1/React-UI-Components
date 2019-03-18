@@ -1,5 +1,29 @@
 /* All styles for your Card Components live here */
 
-img {
+.card-container {
+    width: 492px;
+    margin-left: 68px;
+    border: 1px solid lightgrey;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.banner {
     width: 100%;
+}
+
+.card-content {
+    line-height: 1.4;
+    padding: 0 10px;
+}
+
+.card-title {
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+.grey-link {
+    text-decoration: none;
+    font-size: 14px;
+    color: grey;
 }
