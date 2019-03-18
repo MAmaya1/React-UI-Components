@@ -1,1 +1,31 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-container h1 {
+    font-size: 14px;
+}
+
+.title-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.grey-text {
+    font-size: 12px;
+    margin-left: 9px;
+    color: grey;
+}
+p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.lambda-logo {
+    margin: 14px;
+    width: 40px;
+    height: 40px;
+}

@@ -5,7 +5,7 @@ const HeaderTitle = () => {
     return (
         <div className='title-wrap'>
             <h1>Lambda School</h1>
-            <p>@LambdaSchool - 26 jan</p>
+            <p className="grey-text">@LambdaSchool - 26 jan</p>
         </div>
     );
 }
