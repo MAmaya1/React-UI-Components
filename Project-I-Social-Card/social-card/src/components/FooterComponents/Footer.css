@@ -1,0 +1,14 @@
+footer {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    width: 492px;
+    height: 48px;
+    float: right;
+    border-bottom: 1px solid lightgrey;
+    
+}
+
+footer i {
+    margin: 10px 63px 0 0;
+}
