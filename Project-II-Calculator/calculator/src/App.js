@@ -21,7 +21,7 @@ const App = () => {
         <NumberButton text={'2'}/>
         <NumberButton text={'3'}/>
       </div>
-      <div className="action-buttons">
+      <div className="operator-buttons">
         <ActionButton text={'÷'}/>
         <ActionButton text={'x'}/>
         <ActionButton text={'-'}/>
