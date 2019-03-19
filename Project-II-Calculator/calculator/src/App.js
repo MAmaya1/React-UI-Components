@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import NumberButton from './components/ButtonComponents/NumberButton';
+import ActionButton from './components/ButtonComponents/ActionButton';
 
 const App = () => {
   return (
@@ -16,7 +17,13 @@ const App = () => {
         <NumberButton text={'2'}/>
         <NumberButton text={'3'}/>
       </div>
-      
+      <div className="action-buttons">
+        <ActionButton text={'÷'}/>
+        <ActionButton text={'x'}/>
+        <ActionButton text={'-'}/>
+        <ActionButton text={'+'}/>
+        <ActionButton text={'='}/>
+      </div>
     </div>
   );
 };
