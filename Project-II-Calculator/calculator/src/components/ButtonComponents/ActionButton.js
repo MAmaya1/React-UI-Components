@@ -5,8 +5,4 @@ const ActionButton = (props) => {
     return <button className={props.buttonStyle}>{props.text}</button>;
 };
 
-ActionButton.defaultProps = {
-    buttonStyle: 'action-button-styles'
-};
-
 export default ActionButton;

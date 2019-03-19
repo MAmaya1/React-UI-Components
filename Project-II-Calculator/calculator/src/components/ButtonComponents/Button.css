@@ -1,16 +1,23 @@
-.number-button-styles {
+.number-btn {
     background: white;
-    height: 100px;
-    width: 100px;
+    height: 94px;
+    width: 112px;
     font-size: 44px;
     font-weight: bold;
+    border: 1px solid grey;
 }
 
-.action-button-styles{
+.action-btn {
     background: white;
-    height: 100px;
+    height: 94px;
+    width: 100%;
+    font-size: 44px;
+    border: 1px solid grey;
 }
 
-.red {
-    background: red;
+.operator-btn {
+    background: darkred;
+    color: white;
+    width: 118px;
+    height: 100%;
 }

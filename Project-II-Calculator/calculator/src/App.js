@@ -7,28 +7,28 @@ import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 const App = () => {
   return (
     <div className="calculator">
-      <CalculatorDisplay/>
-      <div className="number-container">
-        <ActionButton text="clear"/>
-        <div className="number-buttons">
-          <NumberButton text="7"/>
-          <NumberButton text="8"/>
-          <NumberButton text="9"/>
-          <NumberButton text="4"/>
-          <NumberButton text="5"/>
-          <NumberButton text="6"/>
-          <NumberButton text="1"/>
-          <NumberButton text="2"/>
-          <NumberButton text="3"/>
+      <CalculatorDisplay text="0"/>
+      <div className="calculator-buttons">
+        <div className="number-container">
+          <ActionButton buttonStyle="action-btn" text="clear"/>
+          <NumberButton buttonStyle="number-btn" text="7"/>
+          <NumberButton buttonStyle="number-btn" text="8"/>
+          <NumberButton buttonStyle="number-btn" text="9"/>
+          <NumberButton buttonStyle="number-btn" text="4"/>
+          <NumberButton buttonStyle="number-btn" text="5"/>
+          <NumberButton buttonStyle="number-btn" text="6"/>
+          <NumberButton buttonStyle="number-btn" text="1"/>
+          <NumberButton buttonStyle="number-btn" text="2"/>
+          <NumberButton buttonStyle="number-btn" text="3"/>
+          <ActionButton buttonStyle="action-btn" text="0"/>
         </div>
-        <ActionButton text="0"/>
-      </div>
-      <div className="operator-buttons">
-        <NumberButton buttonStyle="red" text="÷"/>
-        <NumberButton buttonStyle="red" text="x"/>
-        <NumberButton buttonStyle="red" text="-"/>
-        <NumberButton buttonStyle="red" text="+"/>
-        <NumberButton buttonStyle="red" text="="/>
+        <div className="operator-buttons">
+          <NumberButton buttonStyle="operator-btn" text="÷"/>
+          <NumberButton buttonStyle="operator-btn" text="x"/>
+          <NumberButton buttonStyle="operator-btn" text="-"/>
+          <NumberButton buttonStyle="operator-btn" text="+"/>
+          <NumberButton buttonStyle="operator-btn" text="="/>
+        </div>
       </div>
     </div>
   );

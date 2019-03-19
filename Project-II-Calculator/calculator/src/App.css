@@ -1,0 +1,19 @@
+.calculator {
+    width: 455px;
+}
+
+.calculator-buttons {
+    display: flex;
+    width: 455px;
+    border-bottom: 1px solid grey;
+}
+
+.number-container {
+    background: grey;
+    width: 100%;
+}
+
+.operator-buttons {
+    display: flex;
+    flex-direction: column;
+}
