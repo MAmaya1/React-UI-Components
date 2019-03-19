@@ -1,0 +1,16 @@
+.number-button-styles {
+    background: white;
+    height: 100px;
+    width: 100px;
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.action-button-styles{
+    background: white;
+    height: 100px;
+}
+
+.red {
+    background: red;
+}
