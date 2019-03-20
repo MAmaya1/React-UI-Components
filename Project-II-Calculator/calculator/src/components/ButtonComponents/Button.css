@@ -1,0 +1,25 @@
+.number-btn {
+    background: white;
+    height: 94px;
+    width: 112px;
+    font-size: 44px;
+    font-weight: bold;
+    border: 1px solid grey;
+}
+
+.action-btn {
+    background: white;
+    height: 94px;
+    width: 100%;
+    font-size: 44px;
+    border: 1px solid grey;
+}
+
+.operator-btn {
+    background: darkred;
+    color: white;
+    width: 118px;
+    height: 100%;
+    font-size: 52px;
+    border: 1px solid grey;
+}
